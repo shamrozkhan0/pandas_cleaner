@@ -1,0 +1,8 @@
+INFO - 2026-02-09 21:45:28,422 - === Getting Started ====
+INFO - 2026-02-09 21:45:28,428 - === Data has fetched ===
+INFO - 2026-02-09 21:45:28,428 - === Removing Duplicates ===
+INFO - 2026-02-09 21:45:28,428 - === Handling Missing Values ===
+INFO - 2026-02-09 21:45:28,434 - === Standardizing Gender ===
+INFO - 2026-02-09 21:45:28,435 - === Standardizing Status ===
+INFO - 2026-02-09 21:45:28,436 - === Generating CSV File ===
+INFO - 2026-02-09 21:45:28,439 - === The data is cleaned Successfully ===

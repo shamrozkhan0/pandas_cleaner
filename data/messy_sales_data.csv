@@ -1,0 +1,11 @@
+order_id,customer_name,age,gender,city,order_date,amount,status
+101,Ali,23,Male,Karachi,2024-01-05,1200,Completed
+102,Sara,,Female,Lahore,05/02/2024,850,complete
+103,Ahmed,45,male,Karachi,2024-03-10,NaN,Completed
+104,,29,Female,Islamabad,2024/04/12,1500,Pending
+105,Hassan,-5,Male,Karachi,2024-05-01,2000,Completed
+106,Ayesha,200,Female,Lahore,2024-06-07,950,Cancelled
+107,Bilal,34,M,,07-07-2024,1100,completed
+108,Zara,27,Female,Karachi,2024-08-12,1,300,Completed
+109,Usman,31,Male,Lahore,2024-09-10, 1400 ,Completed
+110,Ali,23,Male,Karachi,2024-01-05,1200,Completed
