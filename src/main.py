@@ -12,13 +12,13 @@ log.basicConfig(
 class Cleaner:
 
     def __init__(self, data = None):
-        self.filename = "../data/messy_sales_data.csv"
+        self.file_path = "../data/messy_sales_data.csv"
         self.dataframe = data
 
     def get_data(self):
         try:
             log.info("=== Getting Started ====")
-            self.dataframe = pd.read_csv(self.filename, on_bad_lines="skip", engine="python")
+            self.dataframe = pd.read_csv(self.file_path, on_bad_lines="skip", engine="python")
             log.info("=== Data has fetched ===")
         except Exception as e:
             log.error(str(e))
