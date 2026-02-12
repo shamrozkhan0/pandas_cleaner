@@ -61,6 +61,7 @@ class Cleaner:
             "F":"Female"
         })
 
+
     def standardize_status(self):
         log.info("=== Standardizing Status ===")
         self.dataframe['status'] = self.dataframe['status'].str.strip().str.capitalize()
@@ -79,6 +80,7 @@ def main():
     c.get_data()
     c.removes_duplicates()
     c.handling_missing()
+    c.drop_missing_amount()
     c.standardize_gender()
     c.standardize_status()
     c.generate_csv()
